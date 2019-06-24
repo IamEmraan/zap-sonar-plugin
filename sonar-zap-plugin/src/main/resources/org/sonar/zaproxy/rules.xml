@@ -1119,4 +1119,24 @@ If you want to add a rule, you can, following the model above.
         <tag>security</tag>
         <tag>zaproxy</tag>
     </rule>
+        <rule>
+        <key>10049</key>
+        <name>Informational</name>
+
+        <description> <!-- Corresponding to "<solution>" and "<reference>" of the ZAP report -->
+            <![CDATA[<h3>Solution :</h3>
+  <p>The response contents are not storable by caching components such as proxy servers. If the response does not contain sensitive, personal or user-specific information, it may benefit from being stored and cached, to improve performance.</p>
+  <h3>References:</h3>
+  <ul>
+  <li><a href="https://tools.ietf.org/html/rfc7234">Non-Storable Content</a></li>
+  <li><a href="https://tools.ietf.org/html/rfc7231">Non-Storable Content</a></li>
+  </ul>]]>
+        </description>
+        <severity>MEDIUM</severity>
+        <status>READY</status>
+        <tag>cweid-524</tag>
+        <tag>wascid-13</tag>
+        <tag>security</tag>
+        <tag>zaproxy</tag>
+    </rule>
 </rules>
