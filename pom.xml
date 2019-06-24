@@ -56,7 +56,7 @@
 	</developers>
 
 	<scm>
-		<connection>scm:git:https://github.com/Coveros/zap-sonar-plugin.git</connection>
+		<connection>scm:git:https://github.com/IamEmraan/zap-sonar-plugin.git</connection>
 		<developerConnection>scm:git:git@github.com:Coveros/zap-sonar-plugin.git</developerConnection>
 		<url>https://github.com/Coveros/zap-sonar-plugin</url>
 	  <tag>HEAD</tag>
